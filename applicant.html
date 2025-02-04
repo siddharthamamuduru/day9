@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aplicant</title>
+</head>
+<body>
+    <center><h1>GENERAL BUS PASS APPLICATION</h1></center>
+    <fieldset>
+        <legend>Application Details</legend>
+        <form method="get" action="./loging.html">
+        <label for="name">Name:</label>
+        <input type="name" name="name" id="name"  pattern="[a-zA-Z]".{8,20} required><br><br>
+        <lable for="Date of birth">Date of birth</lable>
+        <input type="datetime-local" name="Date of birth" id="Date of birth" required>
+        <lable for="Fthers/Gaurdian's name">fathers/gaurdian's name</lable>
+        <input type="Fathers/gaurdian's name" name="Fathers/Gaurdian's name" id="Fathers/Gaurdian's name"  pattern="[a-zA-Z0-9]" REQUIRED><br><br>
+        <lable for="name" id="gender">gender</lable>
+        <lable for="gender">female</lable>
+        <input type="radio" name="female" id="female">
+        <lable for="gender">male</lable>
+        <input type="radio" name="male" id="male"><br><br>
+        <lable for="whatsApp No">whatsApp No</lable>
+        <input type="WhatsApp" id="WhatsApp No" name="whatsApp No" pattern="\+91[6789][0-9{9}]" required>
+        <lable for="Aadhar No">Aadhar</lable>
+        <input type="Aadhar NO" id="Adhar NO" name="Adhar No" pattren="[0-9]{12}" required><br><br>
+        <lable for="E-mail id">E-mail id</lable>
+        <input type="E-mail id" id="E-mail id" name="E-mail id" pattren="[a-zA-Z0-9!@#$%^&*]" required>
+        <lable for="Photo">Photo</lable>
+        <input type="file" id="Photo" name="photo"><br><br>
+        <center><button>submit</button></center>
+        </form>
+    </fieldset><br><br>
+    <fieldset>
+        <legend>Residential Address</legend>
+        <form method="get" action="./loging.html">
+        <lable for="Address">Applicant Address:</lable>
+        <textarea id="Address" name="Address" required></textarea>
+
+
+
+
+        &nbsp;&nbsp;
+        <lable for="District">District</lable>
+        <select name="" id="District">
+            <option value="Hyderabad">Hyderabad</option>   
+        </select><br><br>
+        <lable for="Mandal">Mandal</lable>
+        <select name="" id="Mandal">
+            <option value="Hyderabad">Hderabad</option>
+        </select>
+        &nbsp;&nbsp;
+        <lable for="Village">Village</lable>
+        <select name="" id="Village">
+            <option value="HYderabad">Hyderabad</option>
+        </select><br><br>
+        &nbsp;&nbsp;
+        <label for="Pincode">Pincode</label>
+        <select name="" id="Pincode">
+        </select>
+        </for.m>
+    </fieldset>
+    <from method="get">
+        <fieldset>
+            <legend>Pss Type Details</legend>
+            <lable for="city">City</lable>
+            <select name="City" id="City">
+                <option value="Hyderabad">Hyderabad</option>
+            </select><br><br>
+            <lable for="Pass Type">Pass Type</lable>
+            <select name="pass Type" id="Pass Type">
+                <option value="Select">Select</option>
+            </select>
+        </fieldset>
+    </from>
+<form method="get">
+    <fieldset>
+        <legend>Mode Of Payment & Pass Collection</legend>
+        <lable for="Hyderabad">payment mode</lable>
+        <select id="Mandals">
+            <option value="name">Select Payment Mode</option>
+            <option value="name"></option>
+        </select>&nbsp;&nbsp;&nbsp;
+        <br><br>
+        <lable for="Hyderabad">Pass Delivery Mode</lable>
+        <select id="Mandals">
+            <option value="name">Select Pass Delivery</option>
+            <option> value="name"</option>
+        </select>&nbsp;&nbsp;&nbsp;&nbsp;
+        <br><br>
+        <lable for="Hyderabad">Center At Which You Want To Collect The Pass</lable>
+        <select id="Mandals">
+            <option values="name">---select---</option>
+            <option value="name"></option>
+        </select>&nbsp;&nbsp;&nbsp;&nbsp;
+    </fieldset>
+    <center><img src="./CAP.jpg"></center>
+    <label for="fname"> </label>
+    <center><input type="text" id="fname" name="fname"></center><br><br>
+    <center><button type="button" id="submit">submitted</button></center>
+        
+</body>
+</html>
